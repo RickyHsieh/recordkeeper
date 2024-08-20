@@ -1,0 +1,11 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color> <!-- 蓝色 -->
+    <color name="colorPrimaryDark">#283593</color> <!-- 深蓝 -->
+    <color name="colorAccent">#FF5252</color> <!-- 红色 -->
+    <color name="colorBackgroundLight">#FFFFFF</color> <!-- 亮色背景 -->
+    <color name="colorBackgroundDark">#121212</color> <!-- 暗色背景 -->
+    <color name="dark_gray">#FF444444</color> <!-- 暗灰 -->
+    <color name="light_gray">#FF888888</color> <!-- 亮灰 -->
+</resources>

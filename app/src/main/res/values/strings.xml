@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Record Keeper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cycling">Cycling</string>
+    <string name="this_is_cycling_image">This is cycling image.</string>
+    <string name="_5km">5km</string>
+    <string name="_10km">10km</string>
+    <string name="half_marathon">Half Marathon</string>
+    <string name="marathon">Marathon</string>
+    <string name="running">Running</string>
+    <string name="longest_ride">Longest Ride</string>
+    <string name="biggest_climb">Biggest Climb</string>
+    <string name="best_average_speed">Best Average Speed</string>
+    <string name="delete">delete</string>
+    <string name="clear_record_button_text">clear record</string>
+    <string name="record_text_input_layout_text">Record</string>
+    <string name="edit_text_date_text">5th January 2024</string>
+    <string name="record_text_input_layout">Record</string>
+    <string name="record_text_input_edit_text">24:15</string>
+</resources>
