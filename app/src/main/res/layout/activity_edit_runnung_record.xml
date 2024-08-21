@@ -15,6 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_height="wrap_content">
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_record"
             android:layout_width="wrap_content"
             android:text="@string/record_text_input_edit_text"
             android:layout_height="wrap_content"/>

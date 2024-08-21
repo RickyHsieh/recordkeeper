@@ -1,5 +1,6 @@
 package com.purplestudio.recordkeeper.running
 
+import android.content.Context.MODE_PRIVATE
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -25,7 +26,25 @@ class RunningFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupClickListeners()
+    }
 
+    override fun onResume() {
+        super.onResume()
+        displayRecords()
+    }
+
+    private fun displayRecords() {
+        requireContext().getSharedPreferences("running", MODE_PRIVATE).apply {
+            binding.textView5km.text = getString("5km record", null)
+            binding.textView5kmDate.text = getString("5km date", null)
+            binding.textView10kmDate.text = getString("10km date", null)
+            binding.textView10km.text = getString("10km record", null)
+            binding.textViewHalfMarathonTime.text = getString("Half-Marathon record", null)
+            binding.textViewHalfMarathonDate.text = getString("Half-Marathon date", null)
+            binding.textViewMarathonTime.text = getString("Marathon record", null)
+            binding.textViewMarathonDate.text = getString("Marathon date", null)
+
+        }
     }
 
     private fun setupClickListeners() {
